@@ -1,0 +1,13 @@
+{
+  "id": "rencontres-du-film-court-2006",
+  "title": "The Rencontres du Film Court begins",
+  "period": "2006",
+  "year": 2006,
+  "description": "The Rencontres du Film Court de Madagasikara was created in 2006 on the initiative of Laza Razanajatovo. The festival became a durable meeting point for screenings, training, professional exchange and the discovery of new filmmakers, and later developed into a pan-African competition.",
+  "places": ["antananarivo"],
+  "sources": [{
+    "note": "Creation date recovered from Filmada's earlier cinema chronology; the festival's own archives should become the principal source.",
+    "url": "https://filmada.weebly.com/de-1900-agrave-nos-jours.html"
+  }],
+  "status": "needs-review"
+}

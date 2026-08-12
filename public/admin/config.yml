@@ -116,8 +116,8 @@ collections:
       - { label: Status, name: status, widget: select, options: [draft, needs-review, verified, published], default: needs-review }
 
   - name: history
-    label: History
-    label_singular: Historical entry
+    label: Cinema history
+    label_singular: Cinema-history entry
     folder: data/history
     create: true
     extension: json
@@ -139,6 +139,25 @@ collections:
         fields:
           - { label: Note, name: note, widget: string }
           - { label: URL, name: url, widget: string, required: false }
+      - { label: Status, name: status, widget: select, options: [draft, needs-review, verified, published], default: needs-review }
+
+  - name: resources
+    label: Practical guides
+    label_singular: Practical guide
+    folder: data/resources
+    create: true
+    extension: json
+    format: json
+    identifier_field: id
+    slug: "{{fields.id}}"
+    fields:
+      - { label: Stable ID, name: id, widget: string }
+      - { label: Title, name: title, widget: string }
+      - { label: Type, name: type, widget: string, default: Practical guide }
+      - { label: Summary, name: summary, widget: text }
+      - { label: Editorial note, name: editorialNote, widget: text, hint: "Explain what still needs checking before archival material can be presented as current." }
+      - { label: Examples in earlier guide, name: legacyExamples, widget: list, required: false, field: { label: Example, name: example, widget: string } }
+      - { label: Earlier Filmada page, name: sourceUrl, widget: string }
       - { label: Status, name: status, widget: select, options: [draft, needs-review, verified, published], default: needs-review }
 
   - name: organisations

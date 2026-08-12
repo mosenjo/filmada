@@ -21,6 +21,14 @@ An ID must not change after publication. Names and titles may change without bre
 
 Opportunities should contain an official URL and an optional ISO date deadline. Expired opportunities remain available to the historical archive but should not appear among current calls.
 
+## Cinema history
+
+History records document cinema and audiovisual culture in Madagascar: works, makers, screenings, venues, institutions, festivals, technologies and policy. General national events belong here only when the record explains a direct and sourced effect on cinema.
+
+## Practical guides
+
+Resource guides preserve useful material from earlier Filmada pages while it is checked and updated. Archival examples must never be presented as active calls without confirming their current status, eligibility, deadline and official link.
+
 ## Recovered directory records
 
 Records recovered from Filmada's earlier community directory use `archival: true` and remain `needs-review` until the person or an editor confirms them. A recovered person may include a professional name, standardised roles, professional summary, organisation and selected work.
