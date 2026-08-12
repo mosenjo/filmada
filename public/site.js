@@ -40,3 +40,24 @@ if (filterRoot) {
     update();
   });
 }
+
+const contributionForm = document.querySelector("[data-contribution-form]");
+if (contributionForm) contributionForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+  const error = contributionForm.querySelector("[data-form-error]");
+  if (!contributionForm.reportValidity()) {
+    error.hidden = false;
+    return;
+  }
+  error.hidden = true;
+  const values = new FormData(contributionForm);
+  const language = document.documentElement.lang === "fr" ? "fr" : "en";
+  const titlePrefix = language === "fr" ? "Contribution" : "Contribution";
+  const heading = language === "fr" ? ["Type", "Sujet", "Proposition", "Sources publiques", "Déclaration"] : ["Type", "Subject", "Proposed addition or correction", "Public sources", "Declaration"];
+  const declaration = language === "fr" ? "Aucune coordonnée privée n’est incluse et les informations peuvent être examinées publiquement." : "No private contact details are included and the information may be reviewed publicly.";
+  const body = `## ${heading[0]}\n${values.get("type")}\n\n## ${heading[1]}\n${values.get("subject")}\n\n## ${heading[2]}\n${values.get("details")}\n\n## ${heading[3]}\n${values.get("sources") || (language === "fr" ? "À ajouter" : "To be added")}\n\n## ${heading[4]}\n${declaration}`;
+  const url = new URL("https://github.com/mosenjo/filmada/issues/new");
+  url.searchParams.set("title", `${titlePrefix}: ${values.get("subject")}`);
+  url.searchParams.set("body", body);
+  window.location.href = url.toString();
+});
