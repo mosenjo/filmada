@@ -3,8 +3,58 @@
   "title": "Festivals to consider for Malagasy filmmakers and producers",
   "type": "Practical guide",
   "summary": "A curated guide to Malagasy, African, Indian Ocean and international festivals relevant to films and projects connected to Madagascar.",
-  "editorialNote": "The earlier Filmada list should be recovered as an archive, then every festival should be checked for current activity, eligible formats, premiere rules, fees, deadlines and its official submission link.",
-  "legacyExamples": [],
+  "editorialNote": "This recovered starting selection is not a calendar of open submissions. Before submitting, confirm the festival is active and check eligible formats, premiere rules, fees, deadlines, screening rights and its official submission route.",
+  "entries": [
+    {
+      "name": "Rencontres du Film Court de Madagasikara",
+      "region": "Madagascar",
+      "description": "Founded in 2006 in Antananarivo, the RFC combines screenings, professional exchange, training and the discovery of filmmakers. It developed into a pan-African short-film competition and is a central reference point for Malagasy short cinema.",
+      "eligibility": "Check the current edition's categories, territorial eligibility, film-completion window and submission dates.",
+      "officialUrl": "https://rencontresdufilmcourt.mg/"
+    },
+    {
+      "name": "FESPACO",
+      "region": "Africa · Burkina Faso",
+      "description": "The Pan-African Film and Television Festival of Ouagadougou is one of the continent's major cinema events. Malagasy works including L'Accident, Madame Esther and Zanaka, ainsi parlait Félix have received recognition there.",
+      "eligibility": "Consult the current regulations for African authorship and production requirements, categories, premiere conditions and deadlines.",
+      "officialUrl": "https://fespaco.org/"
+    },
+    {
+      "name": "FIFAI — Festival International du Film d'Afrique et des Îles",
+      "region": "Indian Ocean · Réunion",
+      "description": "A festival in Réunion focused on films from Africa and island territories. Its Indian Ocean location makes it especially relevant to films from Madagascar; Ady Gasy received the Prix Fénèt Océan Indien there.",
+      "eligibility": "Confirm the current programme, accepted lengths and genres, submission method and dates with the organiser.",
+      "officialUrl": "https://www.festivalfilmafriqueiles.fr/"
+    },
+    {
+      "name": "African Film Festival Cologne — Jenseits von Europa",
+      "region": "Europe · Germany",
+      "description": "Organised by FilmInitiativ in Cologne since 1992, this festival and its Africa Film Specials present contemporary and historical cinema from African countries to German audiences.",
+      "eligibility": "Ask the organiser about current programming priorities, screening formats, rights, fees and whether unsolicited submissions are accepted.",
+      "officialUrl": "https://afrikafilmfestivalkoeln.de/"
+    },
+    {
+      "name": "Festival Lumières d'Afrique",
+      "region": "Europe · France",
+      "description": "Created in Besançon in 1996, Lumières d'Afrique presents cinema from across the African continent. Ady Gasy received its documentary Grand Prix Eden in 2014.",
+      "eligibility": "Check current categories, submission route, production-date limits and conditions directly with the festival.",
+      "officialUrl": "https://www.lumieresdafrique.com/"
+    },
+    {
+      "name": "FCAT — Festival de Cine Africano de Tarifa-Tánger",
+      "region": "Europe and Africa · Spain and Morocco",
+      "description": "Founded in 2004, FCAT is dedicated to African cinema and connects audiences and professionals across the Strait of Gibraltar. Malagasy Mankany received an audience award during the festival's Córdoba period.",
+      "eligibility": "Confirm the current edition's African-film definition, competitive sections, premiere policy and deadlines.",
+      "officialUrl": "https://fcat.es/"
+    },
+    {
+      "name": "Journées Cinématographiques de Carthage",
+      "region": "Africa · Tunisia",
+      "description": "The Carthage Film Festival is a longstanding platform for African and Arab cinemas. Madame Esther was recognised at the JCC in 2015.",
+      "eligibility": "Review the current official regulations for eligible countries, sections, formats and deadlines.",
+      "officialUrl": "https://www.jcctunisie.org/"
+    }
+  ],
   "sourceUrl": "https://filmada.weebly.com/festivals-a-consideacuterer-pour-les-reacutealisateurs-et-producteurs-malgaches.html",
   "status": "needs-review"
 }

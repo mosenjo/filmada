@@ -34,7 +34,10 @@ for (const person of collections.people) {
 }
 for (const organisation of collections.organisations) if (!organisation.name || !organisation.type || !organisation.description) errors.push(`organisations/${organisation.id}: name, type and description are required`);
 for (const entry of collections.history) if (!entry.title || !entry.description || !entry.sources?.length) errors.push(`history/${entry.id}: title, description and at least one source are required`);
-for (const resource of collections.resources) if (!resource.title || !resource.summary || !resource.editorialNote || !resource.sourceUrl) errors.push(`resources/${resource.id}: title, summary, editorial note and archival source URL are required`);
+for (const resource of collections.resources) {
+  if (!resource.title || !resource.summary || !resource.editorialNote || !resource.sourceUrl || !resource.entries?.length) errors.push(`resources/${resource.id}: title, summary, editorial note, archival source URL and entries are required`);
+  for (const entry of resource.entries ?? []) if (!entry.name || !entry.region || !entry.description || !entry.eligibility || !entry.officialUrl) errors.push(`resources/${resource.id}: every entry requires name, region, description, eligibility guidance and an official URL`);
+}
 
 if (errors.length) {
   console.error(errors.join("\n"));

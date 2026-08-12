@@ -3,12 +3,36 @@
   "title": "Funding and support accessible to Malagasy filmmakers",
   "type": "Practical guide",
   "summary": "A maintained guide to funds, development programmes, labs and production support that may be accessible to filmmakers and producers from Madagascar.",
-  "editorialNote": "The earlier Filmada guide is valuable source material, but eligibility, deadlines and programme status change. Entries must be checked against official programme websites before they are shown as current.",
-  "legacyExamples": [
-    "Fonds Serasary",
-    "World Cinema Fund",
-    "visions sud est",
-    "La Fabrique Cinéma de l'Institut français"
+  "editorialNote": "This guide recovers Filmada's earlier research. It is not a list of currently open calls: programme status, eligibility, amounts and deadlines must be confirmed on each programme's official website.",
+  "entries": [
+    {
+      "name": "Fonds Serasary",
+      "region": "Madagascar",
+      "description": "Created in Antananarivo in April 2011 by the Association Les Rencontres du Film Court de Madagasikara, the Institut français de Madagascar and Rozifilms. The fund was designed to help young Malagasy talent identified through the Rencontres du Film Court progress into production, while encouraging local employment, skills transfer and the circulation of Malagasy culture.",
+      "eligibility": "Historically aimed at emerging Malagasy filmmakers and audiovisual projects connected to the Rencontres du Film Court. Its present activity and application process need confirmation.",
+      "officialUrl": "https://rencontresdufilmcourt.mg/"
+    },
+    {
+      "name": "World Cinema Fund",
+      "region": "International · based in Germany",
+      "description": "A Berlinale initiative supporting feature-length fiction and documentary projects from regions with comparatively weak film infrastructure. Its purpose is to enable distinctive films that might not otherwise be produced and to strengthen their international circulation.",
+      "eligibility": "The programme has historically included projects from Africa. Current funding lines, eligible countries, production partnerships and deadlines must be checked directly.",
+      "officialUrl": "https://www.berlinale.de/en/world-cinema-fund/home/profile.html"
+    },
+    {
+      "name": "visions sud est",
+      "region": "International · based in Switzerland",
+      "description": "A Swiss fund supporting independent feature-length fiction and documentary production from Africa, Asia, Latin America and parts of Eastern Europe, while helping supported films reach Swiss and European audiences.",
+      "eligibility": "Historically intended for projects proposed by production companies established in eligible countries, with filmmakers from those countries and substantial production taking place locally. Confirm current rules and deadlines.",
+      "officialUrl": "https://visionssudest.ch/"
+    },
+    {
+      "name": "La Fabrique Cinéma de l'Institut français",
+      "region": "International · Festival de Cannes",
+      "description": "A development programme for emerging filmmakers from eligible countries. Selected director–producer teams receive tailored project guidance, pitching support, professional meetings and access to networks around the Festival de Cannes and Marché du Film.",
+      "eligibility": "Historically focused on a director's first or second feature in fiction, documentary or animation, submitted with a producer. Current country eligibility, experience requirements, language expectations and application dates must be confirmed.",
+      "officialUrl": "https://www.lescinemasdumonde.com/en/la-fabrique/"
+    }
   ],
   "sourceUrl": "https://filmada.weebly.com/fonds-et-soutiens-accessibles-aux-cineacuteastes-malgaches.html",
   "status": "needs-review"
