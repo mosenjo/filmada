@@ -1,0 +1,41 @@
+{
+  "id": "mahaleo",
+  "title": "Mahaleo",
+  "alternativeTitle": "Mahaleo",
+  "year": 2005,
+  "type": null,
+  "synopsis": "Mahaleo is the most beloved music group in Madagascar — seven musicians who have played together since 1972, when their songs became the soundtrack to the popular uprising that ended the neo-colonial regime. In the decades since, each member kept their day job: surgeon, parliamentary deputy, farmer, sociologist. Rajaonarivelo and César Paes follow the band across Madagascar without commentary or narration, letting the music serve as a lens through which to observe the country at a critical juncture in its history. The film is both a portrait of an extraordinary group and a meditation on what it means to imagine a national culture across thirty years of change.",
+  "credits": [
+    {
+      "person": "raymond-rajaonarivelo",
+      "role": "Director"
+    },
+    {
+      "person": "cesar-paes",
+      "role": "Director & Cinematographer"
+    }
+  ],
+  "primaryDirector": "raymond-rajaonarivelo",
+  "themes": [
+    "memory-and-forgetting",
+    "landscapes-and-territory",
+    "independence-and-nationhood",
+    "music-and-cultural-expression"
+  ],
+  "places": [
+    "antananarivo"
+  ],
+  "history": [
+    "independence-day-june-26-1960",
+    "the-1972-popular-revolution"
+  ],
+  "image": null,
+  "sources": [
+    {
+      "note": "IMDb; Wikipedia; Laterit Productions. 2005, 102 min, 35mm. Co-directed with César Paes (see filmmaker_films). Mahaleo band founding 1972 confirmed. SCAM Star 2007 award confirmed.",
+      "url": null
+    }
+  ],
+  "status": "needs-review",
+  "importedAt": "2026-05-24 11:01:40"
+}

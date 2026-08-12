@@ -1,0 +1,36 @@
+{
+  "id": "ady-gasy",
+  "title": "Ady Gasy",
+  "alternativeTitle": "Ady Gasy (The Malagasy Way)",
+  "year": 2014,
+  "type": null,
+  "synopsis": "A poetic documentary structured as a kabary — the Malagasy traditional form of oratory — in which director Lova Nantenaina celebrates the ingenuity of everyday Malagasy people: those who recycle tyres into shoes, transform condensed milk cans into lamps, or make soap and medicine from zebu bones. Against the abstract rhetoric of development economists, the film sets the voices and skills of farmers, craftsmen, and street traders. Its title refers to a cluster of distinctly Malagasy values — practical, philosophical, and aesthetic — that resist the label of poverty. The film is also an implicit challenge to outside narratives of underdevelopment, finding in Malagasy resourcefulness a coherent alternative philosophy.",
+  "credits": [
+    {
+      "person": "lova-nantenaina",
+      "role": "Director"
+    }
+  ],
+  "primaryDirector": "lova-nantenaina",
+  "themes": [
+    "independence-and-nationhood",
+    "music-and-cultural-expression",
+    "social-inequality-and-resilience"
+  ],
+  "places": [
+    "antananarivo"
+  ],
+  "history": [
+    "independence-day-june-26-1960",
+    "the-decline-and-revival-of-madagascar-s-cinema-halls"
+  ],
+  "image": null,
+  "sources": [
+    {
+      "note": "IMDb; adygasy.com. Director Lova Nantenaina confirmed. 2014, 84 min, HDV. Sustainable Development Award at Vues d'Afrique confirmed. Co-produced with Laterit Productions.",
+      "url": null
+    }
+  ],
+  "status": "needs-review",
+  "importedAt": "2026-05-24 11:45:04"
+}

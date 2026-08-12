@@ -1,0 +1,39 @@
+{
+  "id": "angano-angano",
+  "title": "Angano...Angano...",
+  "alternativeTitle": "Angano... Angano... nouvelles de Madagascar",
+  "year": 1989,
+  "type": null,
+  "synopsis": "A documentary in which traditional Malagasy storytellers recount tales of gods, animals, tricksters, and origins. César and Marie-Clémence Paes filmed these performances with extraordinary attentiveness, allowing the storytellers' physicality, timing, and relationship with their audiences to carry the full weight of a tradition that has always been embodied and communal. The tales — by turns comic, erotic, violent, and cosmological — form a window into a Malagasy oral imagination that cinema rarely reaches. Its title echoes the traditional opening of a Malagasy tale: angano, angano — once upon a time. Won awards at Cinéma du Réel, the Festival dei Popoli, and the Leipzig Documentary Film Festival.",
+  "credits": [
+    {
+      "person": "marie-clemence-andriamonta-paes",
+      "role": "Director"
+    },
+    {
+      "person": "cesar-paes",
+      "role": "Director & Cinematographer"
+    }
+  ],
+  "primaryDirector": "marie-clemence-andriamonta-paes",
+  "themes": [
+    "memory-and-forgetting",
+    "spirituality-and-tradition",
+    "music-and-cultural-expression"
+  ],
+  "places": [
+    "antananarivo"
+  ],
+  "history": [
+    "the-mpikabary-madagascar-s-oral-storytelling-tradition"
+  ],
+  "image": null,
+  "sources": [
+    {
+      "note": "IMDb tt0225070; Wikipedia; Laterit Productions. 63 min, 1989. Awards at Cinéma du Réel, Festival dei Popoli, Leipzig confirmed. Co-directed with César Paes (see filmmaker_films).",
+      "url": null
+    }
+  ],
+  "status": "needs-review",
+  "importedAt": "2026-05-24 11:01:40"
+}

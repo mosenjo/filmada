@@ -1,0 +1,23 @@
+{
+  "id": "benoit-ramampy",
+  "name": "Benoît Ramampy",
+  "roles": [
+    "Director"
+  ],
+  "biography": "Born in Ambalavao in 1947, Benoît Ramampy is recognised by successive generations of Malagasy filmmakers as the founding figure of Malagasy fiction cinema. He trained in Paris at Ocora (Radio France's world music label) before returning to the Malagasy Production Centre. His short film L'Accident (1972) — about class inequality after a fatal traffic collision — won the Best Short Film prize at FESPACO, the first time a Malagasy film appeared at the festival. His feature documentary Dahalo, Dahalo... (1984), which followed gendarmes and villagers confronting cattle theft in the pays bara region, was banned by President Ratsiraka's government and not publicly shown in Madagascar until the early 1990s. His final feature, Le Prix de la paix (1989), screened internationally, including in Montreal. He died in Antananarivo in 1996.",
+  "image": null,
+  "films": [
+    {
+      "id": "dahalo-dahalo",
+      "role": "Director"
+    }
+  ],
+  "sources": [
+    {
+      "note": "Wikipedia (Benoît Ramampy); Project MUSE academic article. Born 1947 Ambalavao, died 1996 Antananarivo confirmed. Real filmography: L'Accident (1972), Dahalo Dahalo (1984), Le Prix de la paix (1989). Previous entry attributed \"Daniella\" (1974) to him — no evidence found in any source.",
+      "url": null
+    }
+  ],
+  "status": "needs-review",
+  "importedAt": "2026-05-24 11:01:40"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "zaho-zay",
+  "title": "Zaho Zay",
+  "alternativeTitle": "Zaho Zay",
+  "year": 2020,
+  "type": null,
+  "synopsis": "A young woman works as a guard in a hopelessly overcrowded Malagasy prison. In her imagination, her absent father — who killed his own brother before she was born — becomes a mythical wandering figure. When a new prisoner arrives claiming to know him, fantasy and reality begin to converge. Co-directed by Maéva Ranaïvojaona and Georg Tiller, with a script by Jean-Luc Raharimanana, Zaho Zay is a hybrid essay-documentary that weaves prison footage, folk myth, and lyric imagery into a meditation on abandonment, justice, and the structures of poverty and violence. The title — it's me in Malagasy — echoes the call inmates make during morning assembly. It broadcast on Arte in 2023.",
+  "credits": [
+    {
+      "person": "maeva-ranaivojaona",
+      "role": "Director"
+    }
+  ],
+  "primaryDirector": "maeva-ranaivojaona",
+  "themes": [
+    "memory-and-forgetting",
+    "spirituality-and-tradition",
+    "silence-and-absence"
+  ],
+  "places": [
+    "antananarivo"
+  ],
+  "history": [
+    "the-decline-and-revival-of-madagascar-s-cinema-halls"
+  ],
+  "image": null,
+  "sources": [
+    {
+      "note": "IMDb tt12363494; Arte broadcast 7 August 2023 confirmed. Co-director Georg Tiller (Austrian). Script by Jean-Luc Raharimanana confirmed. 78 min, RED 8K.",
+      "url": null
+    }
+  ],
+  "status": "needs-review",
+  "importedAt": "2026-05-24 11:45:04"
+}

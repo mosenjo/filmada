@@ -1,0 +1,37 @@
+{
+  "id": "disco-afrika",
+  "title": "Disco Afrika",
+  "alternativeTitle": "Disco Afrika: une histoire malgache",
+  "year": 2023,
+  "type": null,
+  "synopsis": "Kwame, twenty years old, works in the clandestine sapphire mines. An unexpected event brings him back to his hometown, where he is reunited with his mother and old friends and confronted by the corruption that pervades every level of society. As he investigates his father's past, he discovers a connection to Tout Puissant Africa Voice, a music group that embodied the Pan-African cultural awakening of the 1970s. Director Luck Razanajaona uses kaiamba — a musical form born in Toamasina in 1970 to challenge ethnocentrism in Malagasy media — as the film's political and emotional backbone. A coming-of-age story that is also a history of resistance.",
+  "credits": [
+    {
+      "person": "luck-razanajaona",
+      "role": "Director"
+    }
+  ],
+  "primaryDirector": "luck-razanajaona",
+  "themes": [
+    "colonial-history-and-resistance",
+    "youth-and-coming-of-age",
+    "music-and-cultural-expression"
+  ],
+  "places": [
+    "antananarivo",
+    "toamasina"
+  ],
+  "history": [
+    "the-1972-popular-revolution",
+    "the-decline-and-revival-of-madagascar-s-cinema-halls"
+  ],
+  "image": null,
+  "sources": [
+    {
+      "note": "IMDb. 2023, 81 min. Director Luck Razanajaona. Kaiamba music and Toamasina origin confirmed. Berlinale Talents, Rotterdam Lab, La Fabrique Cannes participation confirmed.",
+      "url": null
+    }
+  ],
+  "status": "needs-review",
+  "importedAt": "2026-05-24 11:45:04"
+}

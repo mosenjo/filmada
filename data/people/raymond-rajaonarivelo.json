@@ -1,0 +1,31 @@
+{
+  "id": "raymond-rajaonarivelo",
+  "name": "Raymond Rajaonarivelo",
+  "roles": [
+    "Director"
+  ],
+  "biography": "Born in Antananarivo in 1949, Raymond Rajaonarivelo studied filmmaking at the University of Montpellier and the University of Paris before returning to Madagascar. He is widely regarded as the most internationally recognised Malagasy filmmaker. His debut feature Tabataba (1988) — the story of a village during the 1947 uprising against French colonial rule — was the first Malagasy film selected for the Cannes Film Festival. His second feature, Quand les étoiles rencontrent la mer (1996), won the Special Jury Prize at the Istanbul International Film Festival. His work is defined by patience: built on silences as much as dialogue, on gesture and landscape, on the long presence of colonial history and the weight of Malagasy oral culture. In 2005, he co-directed Mahaleo with César Paes — a documentary portrait of Madagascar's most beloved music group.",
+  "image": null,
+  "films": [
+    {
+      "id": "tabataba",
+      "role": "Director"
+    },
+    {
+      "id": "quand-les-etoiles-rencontrent-la-mer",
+      "role": "Director"
+    },
+    {
+      "id": "mahaleo",
+      "role": "Director"
+    }
+  ],
+  "sources": [
+    {
+      "note": "Wikipedia; IMDb; Cannes and Istanbul FF records. Born 1949 Antananarivo confirmed. Studied University of Montpellier and University of Paris (not IDHEC — previous entry was incorrect).",
+      "url": null
+    }
+  ],
+  "status": "needs-review",
+  "importedAt": "2026-05-24 11:01:40"
+}

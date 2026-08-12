@@ -1,0 +1,171 @@
+# The repository value will be replaced when the public GitHub repository is created.
+backend:
+  name: github
+  repo: REPLACE_WITH_GITHUB_OWNER/filmada
+  branch: main
+  open_authoring: true
+
+publish_mode: editorial_workflow
+media_folder: public/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: films
+    label: Films
+    label_singular: Film
+    folder: data/films
+    create: true
+    extension: json
+    format: json
+    identifier_field: id
+    slug: "{{fields.id}}"
+    fields:
+      - { label: Stable ID, name: id, widget: string, hint: "Lowercase words separated by hyphens; never change after publishing." }
+      - { label: Title, name: title, widget: string }
+      - { label: Alternative title, name: alternativeTitle, widget: string, required: false }
+      - { label: Year, name: year, widget: number, value_type: int, required: false }
+      - { label: Type, name: type, widget: select, options: [Feature, Short, Documentary, Animation, Series, Other], required: false }
+      - { label: Synopsis, name: synopsis, widget: text }
+      - { label: Primary director ID, name: primaryDirector, widget: relation, collection: people, search_fields: [name], value_field: id, display_fields: [name], required: false }
+      - label: Credits
+        name: credits
+        widget: list
+        required: false
+        fields:
+          - { label: Person, name: person, widget: relation, collection: people, search_fields: [name], value_field: id, display_fields: [name] }
+          - { label: Role, name: role, widget: string }
+      - { label: Theme IDs, name: themes, widget: list, required: false, field: { label: Theme, name: theme, widget: relation, collection: themes, search_fields: [name], value_field: id, display_fields: [name] } }
+      - { label: Place IDs, name: places, widget: list, required: false, field: { label: Place, name: place, widget: relation, collection: places, search_fields: [name], value_field: id, display_fields: [name] } }
+      - { label: History IDs, name: history, widget: list, required: false, field: { label: History, name: history, widget: relation, collection: history, search_fields: [title], value_field: id, display_fields: [title] } }
+      - { label: Image, name: image, widget: image, required: false }
+      - label: Sources
+        name: sources
+        widget: list
+        fields:
+          - { label: Note, name: note, widget: string }
+          - { label: URL, name: url, widget: string, required: false }
+      - { label: Status, name: status, widget: select, options: [draft, needs-review, verified, published], default: needs-review }
+      - { label: Imported at, name: importedAt, widget: hidden, required: false }
+
+  - name: people
+    label: People
+    label_singular: Person
+    folder: data/people
+    create: true
+    extension: json
+    format: json
+    identifier_field: id
+    slug: "{{fields.id}}"
+    fields:
+      - { label: Stable ID, name: id, widget: string }
+      - { label: Name, name: name, widget: string }
+      - { label: Roles, name: roles, widget: list, field: { label: Role, name: role, widget: string } }
+      - { label: Biography, name: biography, widget: text }
+      - { label: Image, name: image, widget: image, required: false }
+      - label: Filmography
+        name: films
+        widget: list
+        required: false
+        fields:
+          - { label: Film, name: id, widget: relation, collection: films, search_fields: [title], value_field: id, display_fields: [title] }
+          - { label: Role, name: role, widget: string }
+      - label: Sources
+        name: sources
+        widget: list
+        fields:
+          - { label: Note, name: note, widget: string }
+          - { label: URL, name: url, widget: string, required: false }
+      - { label: Status, name: status, widget: select, options: [draft, needs-review, verified, published], default: needs-review }
+      - { label: Imported at, name: importedAt, widget: hidden, required: false }
+
+  - name: places
+    label: Places
+    label_singular: Place
+    folder: data/places
+    create: true
+    extension: json
+    format: json
+    identifier_field: id
+    slug: "{{fields.id}}"
+    fields:
+      - { label: Stable ID, name: id, widget: string }
+      - { label: Name, name: name, widget: string }
+      - { label: Region, name: region, widget: string, required: false }
+      - { label: Description, name: description, widget: text }
+      - { label: Status, name: status, widget: select, options: [draft, needs-review, verified, published], default: needs-review }
+
+  - name: themes
+    label: Themes
+    label_singular: Theme
+    folder: data/themes
+    create: true
+    extension: json
+    format: json
+    identifier_field: id
+    slug: "{{fields.id}}"
+    fields:
+      - { label: Stable ID, name: id, widget: string }
+      - { label: Name, name: name, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Status, name: status, widget: select, options: [draft, needs-review, verified, published], default: needs-review }
+
+  - name: history
+    label: History
+    label_singular: Historical entry
+    folder: data/history
+    create: true
+    extension: json
+    format: json
+    identifier_field: id
+    slug: "{{fields.id}}"
+    fields:
+      - { label: Stable ID, name: id, widget: string }
+      - { label: Title, name: title, widget: string }
+      - { label: Description, name: description, widget: text }
+      - { label: Period, name: period, widget: string, required: false }
+      - { label: Year, name: year, widget: number, value_type: int, required: false }
+      - { label: Place IDs, name: places, widget: list, required: false, field: { label: Place, name: place, widget: relation, collection: places, search_fields: [name], value_field: id, display_fields: [name] } }
+      - { label: Media, name: media, widget: image, required: false }
+      - label: Sources
+        name: sources
+        widget: list
+        required: false
+        fields:
+          - { label: Note, name: note, widget: string }
+          - { label: URL, name: url, widget: string, required: false }
+      - { label: Status, name: status, widget: select, options: [draft, needs-review, verified, published], default: needs-review }
+
+  - name: organisations
+    label: Organisations
+    label_singular: Organisation
+    folder: data/organisations
+    create: true
+    extension: json
+    format: json
+    identifier_field: id
+    slug: "{{fields.id}}"
+    fields:
+      - { label: Stable ID, name: id, widget: string }
+      - { label: Name, name: name, widget: string }
+      - { label: Type, name: type, widget: select, options: [Production company, Festival, School, Cinema, Archive, Association, Collective, Distributor, Other] }
+      - { label: Description, name: description, widget: text }
+      - { label: Website, name: website, widget: string, required: false }
+      - { label: Status, name: status, widget: select, options: [draft, needs-review, verified, published], default: needs-review }
+
+  - name: opportunities
+    label: Opportunities
+    label_singular: Opportunity
+    folder: data/opportunities
+    create: true
+    extension: json
+    format: json
+    identifier_field: id
+    slug: "{{fields.id}}"
+    fields:
+      - { label: Stable ID, name: id, widget: string }
+      - { label: Title, name: title, widget: string }
+      - { label: Type, name: type, widget: select, options: [Funding, Training, Residency, Festival, Job, Crew call, Project call, Screening, Other] }
+      - { label: Description, name: description, widget: text }
+      - { label: Deadline, name: deadline, widget: datetime, date_format: YYYY-MM-DD, time_format: false, required: false }
+      - { label: Official link, name: url, widget: string }
+      - { label: Status, name: status, widget: select, options: [draft, needs-review, verified, published], default: needs-review }

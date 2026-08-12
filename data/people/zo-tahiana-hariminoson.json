@@ -1,0 +1,23 @@
+{
+  "id": "zo-tahiana-hariminoson",
+  "name": "Zo Tahiana Hariminoson",
+  "roles": [
+    "Director"
+  ],
+  "biography": "A self-taught Malagasy filmmaker whose debut feature JOE (2022) became both a critical and popular success in Madagascar. He also took the title role in the film. He made JOE as a deliberate attempt to bring Malagasy occult culture — the traditions of sorcery, ancestral intervention, and the spiritual economy of everyday life — back to the screen. Produced by Watch Entertainment Studio and distributed through Canal Olympia, the film demonstrated that ambitious Malagasy genre filmmaking was possible despite limited production infrastructure.",
+  "image": null,
+  "films": [
+    {
+      "id": "joe",
+      "role": "Director"
+    }
+  ],
+  "sources": [
+    {
+      "note": "IMDb tt31179651; Letterboxd. Self-taught confirmed. JOE premiere 28 April 2022 confirmed.",
+      "url": null
+    }
+  ],
+  "status": "needs-review",
+  "importedAt": "2026-05-24 11:45:04"
+}

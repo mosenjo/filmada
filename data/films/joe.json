@@ -1,0 +1,32 @@
+{
+  "id": "joe",
+  "title": "Joe",
+  "alternativeTitle": "Joe",
+  "year": 2022,
+  "type": null,
+  "synopsis": "A taxi driver in Antananarivo, unable to afford treatment for his gravely ill daughter and having exhausted conventional medicine, turns to a sorceress. From this act of desperation, a spiral of encounters and obligations unfolds — pulling him deeper into a world of ancestral power and impossible choices. Director Zo Tahiana Hariminoson, who also plays Joe, made the film as a deliberate attempt to bring Malagasy occult culture back to the screen: the traditions of sorcery and ancestral intervention that shape daily life but rarely appear in Malagasy cinema. Shot on available means, JOE demonstrates the possibility of genre filmmaking within Madagascar's constrained production landscape.",
+  "credits": [
+    {
+      "person": "zo-tahiana-hariminoson",
+      "role": "Director"
+    }
+  ],
+  "primaryDirector": "zo-tahiana-hariminoson",
+  "themes": [
+    "youth-and-coming-of-age",
+    "spirituality-and-tradition"
+  ],
+  "places": [
+    "antananarivo"
+  ],
+  "history": [],
+  "image": null,
+  "sources": [
+    {
+      "note": "IMDb tt31179651; Letterboxd. Premiere 28 April 2022 Madagascar. 93 min. Production: Watch Entertainment Studio. Distribution: Canal Olympia.",
+      "url": null
+    }
+  ],
+  "status": "needs-review",
+  "importedAt": "2026-05-24 11:45:04"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "tabataba",
+  "title": "Tabataba",
+  "alternativeTitle": "Tabataba",
+  "year": 1988,
+  "type": null,
+  "synopsis": "Set in a village on Madagascar's eastern coast in the months surrounding the 1947 uprising against French colonial rule, Tabataba follows Solo, a young boy whose understanding of the adult world is still forming when history tears through it. His elder brother joins the independence movement; French soldiers arrive in the village; the air fills with rumours and abrupt silences. Rajaonarivelo tells this history from the ground — at the level of a child's experience, where the political arrives as texture, atmosphere, and incomprehensible loss before it can be named. The film was the first Malagasy feature selected for the Cannes Film Festival. The word tabataba means trouble in Malagasy, and was the common euphemism for the events of 1947.",
+  "credits": [
+    {
+      "person": "raymond-rajaonarivelo",
+      "role": "Director"
+    }
+  ],
+  "primaryDirector": "raymond-rajaonarivelo",
+  "themes": [
+    "colonial-history-and-resistance",
+    "memory-and-forgetting",
+    "silence-and-absence"
+  ],
+  "places": [
+    "toamasina"
+  ],
+  "history": [
+    "the-malagasy-uprising-of-1947"
+  ],
+  "image": null,
+  "sources": [
+    {
+      "note": "Wikipedia; IMDb tt0098463; Cannes 1988 confirmed. Character name Solo confirmed (François Botozandry). Eastern coast setting confirmed by multiple sources.",
+      "url": null
+    }
+  ],
+  "status": "needs-review",
+  "importedAt": "2026-05-24 11:01:40"
+}

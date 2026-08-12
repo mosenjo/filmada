@@ -1,0 +1,15 @@
+{
+  "name": "filmada",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "migrate": "node scripts/migrate-sqlite.mjs",
+    "build": "node scripts/build.mjs && node scripts/check-build.mjs",
+    "check": "node scripts/check.mjs",
+    "dev": "node scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

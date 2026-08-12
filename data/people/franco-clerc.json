@@ -1,0 +1,23 @@
+{
+  "id": "franco-clerc",
+  "name": "Franco Clerc",
+  "roles": [
+    "Director"
+  ],
+  "biography": "A Malagasy filmmaker who made his debut feature, Mandrakizay Doria (2026), entirely self-financed on a budget of approximately €20,000. He handled direction, cinematography, editing, colour grading, and visual effects himself — a production process that spanned fourteen months. The film, adapted from a successful stage play and spanning from 1869 to the present, was released in Cinépax theaters across Madagascar on 13 February 2026. It represents a new generation of Malagasy filmmakers determined to produce ambitious work entirely on local terms.",
+  "image": null,
+  "films": [
+    {
+      "id": "mandrakizay-doria",
+      "role": "Director"
+    }
+  ],
+  "sources": [
+    {
+      "note": "Cinepax Madagascar press; local film records. Release date 13 February 2026 confirmed. Budget ~€20,000 confirmed. Films and Comics production company confirmed.",
+      "url": null
+    }
+  ],
+  "status": "needs-review",
+  "importedAt": "2026-05-24 11:45:04"
+}

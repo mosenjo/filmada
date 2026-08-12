@@ -1,0 +1,23 @@
+{
+  "id": "maeva-ranaivojaona",
+  "name": "Maéva Ranaïvojaona",
+  "roles": [
+    "Director"
+  ],
+  "biography": "Born in 1983 in Toulouse to a French father and a Malagasy mother, Maéva Ranaïvojaona is a filmmaker, author, and producer who lives and works between France and Vienna. Her feature debut, Zaho Zay (2020), co-directed with Georg Tiller and scripted by Jean-Luc Raharimanana, is a hybrid essay-documentary set in a Malagasy prison — weaving documentary footage of prison life, fantastical sequences, and lyric imagery into a film about abandonment, justice, and the legacies of violence. It broadcast on Arte in 2023.",
+  "image": null,
+  "films": [
+    {
+      "id": "zaho-zay",
+      "role": "Director"
+    }
+  ],
+  "sources": [
+    {
+      "note": "IMDb tt12363494; Wikipedia (Maéva Ranaïvojaona). Born 1983 Toulouse confirmed. Arte broadcast 7 August 2023 confirmed. Co-director Georg Tiller confirmed.",
+      "url": null
+    }
+  ],
+  "status": "needs-review",
+  "importedAt": "2026-05-24 11:45:04"
+}

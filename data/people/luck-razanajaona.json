@@ -1,0 +1,23 @@
+{
+  "id": "luck-razanajaona",
+  "name": "Luck Razanajaona",
+  "roles": [
+    "Director"
+  ],
+  "biography": "A Malagasy filmmaker who graduated from the ESAV film school in Marrakech in 2011. In the decade between graduation and his first feature, he developed his craft through award-winning short films and participated in prestigious programmes including Berlinale Talents, the Rotterdam Lab, and La Fabrique des Cinémas du Monde at Cannes. His debut feature, Disco Afrika (2023), draws on the history of kaiamba music — born in Toamasina in 1970 to challenge ethnocentrism in Malagasy media — to follow a young man navigating corruption, political awakening, and the inheritance of a father's history. It screened at international festivals and won awards at Vues d'Afrique.",
+  "image": null,
+  "films": [
+    {
+      "id": "disco-afrika",
+      "role": "Director"
+    }
+  ],
+  "sources": [
+    {
+      "note": "IMDb; Berlinale Talents; Vues d'Afrique. ESAV Marrakech 2011 confirmed. Short films Le Zebu de Dadilahy (2013) and Madame Esther (2015) confirmed.",
+      "url": null
+    }
+  ],
+  "status": "needs-review",
+  "importedAt": "2026-05-24 11:45:04"
+}

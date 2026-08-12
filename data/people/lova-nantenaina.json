@@ -1,0 +1,23 @@
+{
+  "id": "lova-nantenaina",
+  "name": "Lova Nantenaina",
+  "roles": [
+    "Director"
+  ],
+  "biography": "Born on 7 March 1977 in Antananarivo, Lova Nantenaina grew up in a modest family before moving to France to study social sciences. He later completed a master's degree in Information-Communication in Réunion, and studied filmmaking at the École Supérieure d'Audiovisuel (ESAV) in Toulouse, graduating with honours in 2008. Together with his wife Eva Lova and Candy Radifera, he co-founded Endemika Films — one of the few companies in Madagascar dedicated entirely to cinema. His films focus on those who resist the system through ingenuity: everyday people whom he considers unacknowledged heroes. His debut documentary Avec Presque Rien... (2013) won the Sustainable Development Award at Vues d'Afrique. He is best known internationally for Ady Gasy (2014), a portrait of Malagasy resourcefulness and cultural independence.",
+  "image": null,
+  "films": [
+    {
+      "id": "ady-gasy",
+      "role": "Director"
+    }
+  ],
+  "sources": [
+    {
+      "note": "Wikipedia; ESAV Toulouse; Endemika Films records. Born 7 March 1977 Antananarivo confirmed. Vues d'Afrique award confirmed.",
+      "url": null
+    }
+  ],
+  "status": "needs-review",
+  "importedAt": "2026-05-24 11:45:04"
+}
