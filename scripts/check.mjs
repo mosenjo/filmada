@@ -3,7 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const names = ["people", "films", "places", "themes", "history", "organisations", "opportunities"];
+const names = ["people", "films", "places", "themes", "history", "organisations", "opportunities", "resources"];
 const collections = Object.fromEntries(names.map((name) => [name, readdirSync(path.join(root, "data", name)).filter((file) => file.endsWith(".json")).map((file) => JSON.parse(readFileSync(path.join(root, "data", name, file), "utf8")))]));
 const errors = [];
 const ids = {};
@@ -33,6 +33,8 @@ for (const person of collections.people) {
   for (const field of forbidden) if (Object.hasOwn(person, field)) errors.push(`people/${person.id}: private archival field ${field} must not be stored in the public record`);
 }
 for (const organisation of collections.organisations) if (!organisation.name || !organisation.type || !organisation.description) errors.push(`organisations/${organisation.id}: name, type and description are required`);
+for (const entry of collections.history) if (!entry.title || !entry.description || !entry.sources?.length) errors.push(`history/${entry.id}: title, description and at least one source are required`);
+for (const resource of collections.resources) if (!resource.title || !resource.summary || !resource.editorialNote || !resource.sourceUrl) errors.push(`resources/${resource.id}: title, summary, editorial note and archival source URL are required`);
 
 if (errors.length) {
   console.error(errors.join("\n"));
