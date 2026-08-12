@@ -1,7 +1,7 @@
 # The repository value will be replaced when the public GitHub repository is created.
 backend:
   name: github
-  repo: REPLACE_WITH_GITHUB_OWNER/filmada
+  repo: mosenjo/filmada
   branch: main
   open_authoring: true
 

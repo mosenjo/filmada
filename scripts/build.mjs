@@ -27,7 +27,7 @@ function layout({ title, description, body, current = "" }) {
 </head><body><a class="skip" href="#content">Skip to content</a>
 <header class="site-header"><nav class="nav shell" aria-label="Main navigation"><a class="brand" href="/"><span></span>Filmada</a><button class="menu" aria-expanded="false" aria-controls="navlinks">Menu</button><div id="navlinks" class="navlinks"><a ${current === "people" ? 'aria-current="page"' : ""} href="/people/">People</a><a ${current === "films" ? 'aria-current="page"' : ""} href="/films/">Films</a><a ${current === "organisations" ? 'aria-current="page"' : ""} href="/organisations/">Organisations</a><a ${current === "opportunities" ? 'aria-current="page"' : ""} href="/opportunities/">Opportunities</a><a ${current === "history" ? 'aria-current="page"' : ""} href="/history/">History</a><a href="/contribute/">Contribute</a></div></nav></header>
 <main id="content">${body}</main>
-<footer><div class="shell footer"><div><a class="brand" href="/"><span></span>Filmada</a><p>An open, collaborative directory of Madagascar's film and audiovisual field.</p></div><div><a href="/about/">About</a><a href="/contribute/">Contribute</a><a href="https://github.com/">Source on GitHub</a></div></div></footer><script src="/site.js"></script></body></html>`;
+<footer><div class="shell footer"><div><a class="brand" href="/"><span></span>Filmada</a><p>An open, collaborative directory of Madagascar's film and audiovisual field.</p></div><div><a href="/about/">About</a><a href="/contribute/">Contribute</a><a href="https://github.com/mosenjo/filmada">Source on GitHub</a></div></div></footer><script src="/site.js"></script></body></html>`;
 }
 
 function write(route, html) {

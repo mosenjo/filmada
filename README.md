@@ -2,6 +2,8 @@
 
 Filmada is an open, collaborative directory of Madagascar's film and audiovisual field.
 
+Website: [filmada.org](https://filmada.org) · Repository: [mosenjo/filmada](https://github.com/mosenjo/filmada)
+
 It documents the people, films, organisations, places, opportunities, resources and history that shape Malagasy cinema. Its purpose is to make the field easier to discover, understand and join.
 
 ## Current status
