@@ -1,0 +1,24 @@
+name: Histoire du cinéma
+description: Ajouter un jalon ou corriger la chronologie du cinéma à Madagascar.
+title: "Histoire du cinéma : "
+labels: ["contribution", "histoire"]
+body:
+  - type: input
+    id: period
+    attributes:
+      label: Date ou période
+    validations:
+      required: true
+  - type: textarea
+    id: event
+    attributes:
+      label: Événement cinématographique ou audiovisuel
+      description: Expliquez son lien direct avec le cinéma ou l'audiovisuel à Madagascar.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources archivistiques, institutionnelles ou scientifiques
+    validations:
+      required: true

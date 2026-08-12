@@ -8,9 +8,9 @@ It documents the people, films, organisations, places, opportunities, resources 
 
 ## Current status
 
-Filmada is being rebuilt in public. Its initial dataset was migrated from a 2026 prototype and currently contains 10 people, 12 films, 4 places, 11 themes and 6 historical entries.
+Filmada is live in French at [filmada.org](https://filmada.org), with an English version under [`/en/`](https://filmada.org/en/). It is published automatically from this repository through GitHub Pages.
 
-Imported records are marked `needs-review`. Their source notes are leads for editors, not finished citations.
+The directory currently contains 110 people, 12 films, 5 organisations, 4 places, 11 themes, 9 cinema-history entries and 2 practical guides. Most records recovered from the earlier community directory are marked `needs-review`; verification is an ongoing editorial process rather than a claim that the directory is complete.
 
 ## Principles
 
@@ -45,7 +45,9 @@ No package installation is required. The production website is written to `dist/
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Filmada is preparing a form-based editorial interface at `/admin` so contributors will not need to edit JSON or use Git directly.
+Visitors can use the French or English form at [filmada.org/contribute](https://filmada.org/contribute/) to prepare a public GitHub contribution. See [CONTRIBUTING.md](CONTRIBUTING.md) for the editorial rules.
+
+The form-based editor at `/admin` is configured for review-based contributions. Its GitHub sign-in requires the separate OAuth setup described in [ADMIN_SETUP.md](ADMIN_SETUP.md); no authentication secret belongs in this public repository.
 
 ## Licensing
 

@@ -1,9 +1,11 @@
-# The repository value will be replaced when the public GitHub repository is created.
+locale: fr
+
 backend:
   name: github
   repo: mosenjo/filmada
   branch: main
   open_authoring: true
+  site_domain: filmada.org
 
 publish_mode: editorial_workflow
 media_folder: public/images/uploads
