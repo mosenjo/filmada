@@ -47,4 +47,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). Filmada is preparing a form-based editor
 
 ## Licensing
 
-The intended licensing model is MIT for the website code and Creative Commons Attribution 4.0 for the directory data and original editorial text. The final license files will be added after the project owner confirms this choice and before the repository is made public.
+The website code is available under the [MIT License](LICENSE). Filmada's structured directory data and original editorial text are available under [Creative Commons Attribution 4.0](DATA_LICENSE.md), except where a record or third-party asset states otherwise.
