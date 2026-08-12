@@ -1,0 +1,24 @@
+name: Ajouter ou corriger un film
+description: Proposer une œuvre ou améliorer une fiche de film.
+title: "Film : "
+labels: ["contribution", "film"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Titre du film ou de l'œuvre
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Information à ajouter ou corriger
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources publiques
+      description: Privilégiez les sites officiels, catalogues de festivals et institutions.
+    validations:
+      required: true

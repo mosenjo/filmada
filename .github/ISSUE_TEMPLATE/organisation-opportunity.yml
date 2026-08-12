@@ -1,0 +1,37 @@
+name: Organisation ou opportunité
+description: Proposer une organisation, un financement, un festival ou un appel.
+title: "Organisation ou opportunité : "
+labels: ["contribution"]
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Organisation
+        - Financement ou soutien
+        - Festival
+        - Formation ou résidence
+        - Appel à projets ou candidatures
+        - Autre opportunité
+    validations:
+      required: true
+  - type: input
+    id: title
+    attributes:
+      label: Nom ou titre
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Informations utiles
+      description: Pour une opportunité, indiquez l'éligibilité et l'échéance si elles sont connues.
+    validations:
+      required: true
+  - type: input
+    id: official
+    attributes:
+      label: Site officiel
+    validations:
+      required: true

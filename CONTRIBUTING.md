@@ -25,4 +25,6 @@ Filmada welcomes additions, corrections and source improvements from people comm
 
 New contributors may submit changes for review. Trusted maintainers may publish directly. Every change remains visible and reversible through GitHub history.
 
-You can suggest an update through a GitHub issue. A non-technical editor sign-in will be connected separately before invited editors use `/admin/`.
+You can suggest an update through [Filmada's contribution form](https://filmada.org/contribute/) or one of the structured GitHub issue forms. A submission never changes the public site automatically: a maintainer reviews the sources and the repository validation must pass before publication.
+
+The `/admin/` interface uses the same review principle. External contributors work through a fork and pull request; trusted editors may prepare changes, but `main` remains protected and publication happens only after review and validation.

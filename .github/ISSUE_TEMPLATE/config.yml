@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Formulaire de contribution Filmada
+    url: https://filmada.org/contribute/
+    about: Préparez une contribution en français ou en anglais.
+  - name: Question éditoriale sensible
+    url: https://github.com/mosenjo/filmada/security/advisories/new
+    about: Utilisez un signalement privé si une information personnelle ou sensible est exposée.

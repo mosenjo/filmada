@@ -1,0 +1,32 @@
+name: Ajouter ou corriger une personne
+description: Proposer un profil professionnel ou corriger une fiche existante.
+title: "Personne : "
+labels: ["contribution", "personne"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Nom de la personne
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Information à ajouter ou corriger
+      description: N'incluez aucune coordonnée privée.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources publiques
+      description: Un lien fiable par ligne, avec une courte indication de ce qu'il confirme.
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Vie privée
+      options:
+        - label: Je confirme que cette contribution ne contient aucune coordonnée privée ni information personnelle non nécessaire.
+          required: true
