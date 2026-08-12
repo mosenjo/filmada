@@ -1,0 +1,13 @@
+{
+  "id": "t-movie",
+  "name": "T-MOVIE",
+  "type": "Association",
+  "description": "An association of young film and audiovisual professionals described by the earlier Filmada directory as supporting networking, training, production and cinema events. Its present activities and details require confirmation.",
+  "activities": ["Professional networking", "Training", "Film production", "Events"],
+  "archival": true,
+  "sources": [{
+    "note": "Profile in the earlier Filmada directory.",
+    "url": "https://filmada.weebly.com/t-movie.html"
+  }],
+  "status": "needs-review"
+}

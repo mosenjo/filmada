@@ -20,3 +20,9 @@ An ID must not change after publication. Names and titles may change without bre
 ## Opportunities
 
 Opportunities should contain an official URL and an optional ISO date deadline. Expired opportunities remain available to the historical archive but should not appear among current calls.
+
+## Recovered directory records
+
+Records recovered from Filmada's earlier community directory use `archival: true` and remain `needs-review` until the person or an editor confirms them. A recovered person may include a professional name, standardised roles, professional summary, organisation and selected work.
+
+The public repository must not contain private addresses, old telephone numbers, personal email addresses, personal social accounts, equipment inventories or software inventories from the historical spreadsheet. Contact information may be added only when it is current, professional and explicitly approved for publication.

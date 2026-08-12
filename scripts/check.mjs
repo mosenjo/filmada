@@ -3,7 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const names = ["people", "films", "places", "themes", "history"];
+const names = ["people", "films", "places", "themes", "history", "organisations", "opportunities"];
 const collections = Object.fromEntries(names.map((name) => [name, readdirSync(path.join(root, "data", name)).filter((file) => file.endsWith(".json")).map((file) => JSON.parse(readFileSync(path.join(root, "data", name, file), "utf8")))]));
 const errors = [];
 const ids = {};
@@ -27,6 +27,12 @@ for (const film of collections.films) {
   for (const id of film.history ?? []) if (!ids.history.has(id)) errors.push(`films/${film.id}: unknown history ${id}`);
 }
 for (const person of collections.people) for (const film of person.films ?? []) if (!ids.films.has(film.id)) errors.push(`people/${person.id}: unknown film ${film.id}`);
+for (const person of collections.people) {
+  if (!person.name || !person.biography || !person.roles?.length) errors.push(`people/${person.id}: name, biography and at least one role are required`);
+  const forbidden = ["address", "telephone", "phone", "email", "facebook", "equipment", "software"];
+  for (const field of forbidden) if (Object.hasOwn(person, field)) errors.push(`people/${person.id}: private archival field ${field} must not be stored in the public record`);
+}
+for (const organisation of collections.organisations) if (!organisation.name || !organisation.type || !organisation.description) errors.push(`organisations/${organisation.id}: name, type and description are required`);
 
 if (errors.length) {
   console.error(errors.join("\n"));
