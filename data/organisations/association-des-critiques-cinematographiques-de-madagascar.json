@@ -1,0 +1,14 @@
+{
+  "id": "association-des-critiques-cinematographiques-de-madagascar",
+  "name": "Association des Critiques Cinématographiques de Madagascar",
+  "shortName": "ACCM",
+  "type": "Association",
+  "description": "An association formed to develop and promote film criticism in Madagascar. The earlier Filmada profile traces its development from film-criticism workshops at the Rencontres du Film Court. Its present activities and details require confirmation.",
+  "activities": ["Film criticism", "Professional development", "Cinema culture"],
+  "archival": true,
+  "sources": [{
+    "note": "Profile in the earlier Filmada directory.",
+    "url": "https://filmada.weebly.com/association-des-critiques-cineacutematographiques-de-madagascar.html"
+  }],
+  "status": "needs-review"
+}

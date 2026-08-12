@@ -1,0 +1,13 @@
+{
+  "id": "asa-sary",
+  "name": "ASA SARY",
+  "type": "Association",
+  "description": "An association created to promote cinema culture in Madagascar through training, image education, writing residencies and support for emerging filmmakers. This archival description requires confirmation from the organisation.",
+  "activities": ["Training", "Film education", "Writing residencies", "Project development"],
+  "archival": true,
+  "sources": [{
+    "note": "Profile in the earlier Filmada directory.",
+    "url": "https://filmada.weebly.com/asa-sary.html"
+  }],
+  "status": "needs-review"
+}

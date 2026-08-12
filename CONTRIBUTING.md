@@ -17,10 +17,12 @@ Filmada welcomes additions, corrections and source improvements from people comm
 - Separate documented fact from interpretation.
 - Write respectfully about living people and provide a correction path.
 - Do not upload an image unless its reuse rights are known.
+- Do not copy private contact information from Filmada's earlier archive. Publish contact details only when the person explicitly approves them for publication.
+- Keep recovered records marked `archival: true` and `needs-review` until their identity and professional details are confirmed.
 - Opportunities must include an official link and, when applicable, an expiry date.
 
 ## Review
 
 New contributors may submit changes for review. Trusted maintainers may publish directly. Every change remains visible and reversible through GitHub history.
 
-The public issue templates and contributor application will be added when the repository is published.
+You can suggest an update through a GitHub issue. A non-technical editor sign-in will be connected separately before invited editors use `/admin/`.

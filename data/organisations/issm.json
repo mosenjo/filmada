@@ -1,0 +1,14 @@
+{
+  "id": "issm",
+  "name": "Ivon-toeran'ny Sarimihetsika sy ny Sarimiaina Malagasy",
+  "shortName": "ISSM",
+  "type": "Public institution",
+  "description": "The Malagasy centre for cinema and animated images listed in Filmada's earlier institutional directory. Its current mandate, name and public information require confirmation.",
+  "activities": ["Cinema", "Animation", "Public institution"],
+  "archival": true,
+  "sources": [{
+    "note": "Listed on the institutions page of the earlier Filmada directory.",
+    "url": "https://filmada.weebly.com/institutions.html"
+  }],
+  "status": "needs-review"
+}

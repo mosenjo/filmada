@@ -59,8 +59,12 @@ collections:
     fields:
       - { label: Stable ID, name: id, widget: string }
       - { label: Name, name: name, widget: string }
-      - { label: Roles, name: roles, widget: list, field: { label: Role, name: role, widget: string } }
+      - { label: Professional or artistic name, name: professionalName, widget: string, required: false }
+      - { label: Roles, name: roles, widget: list, field: { label: Role, name: role, widget: select, options: [Director, Assistant Director, Screenwriter, Producer, Actor, Cinematography & Camera, Editing, Sound, Music, Animation & VFX, Art Department, Criticism & Journalism, Photography, Training, Other audiovisual profession, Role being documented] } }
       - { label: Biography, name: biography, widget: text }
+      - { label: Professional summary, name: professionalSummary, widget: text, required: false }
+      - { label: Organisation, name: organisation, widget: string, required: false }
+      - { label: Selected work, name: selectedWork, widget: text, required: false }
       - { label: Image, name: image, widget: image, required: false }
       - label: Filmography
         name: films
@@ -76,6 +80,8 @@ collections:
           - { label: Note, name: note, widget: string }
           - { label: URL, name: url, widget: string, required: false }
       - { label: Status, name: status, widget: select, options: [draft, needs-review, verified, published], default: needs-review }
+      - { label: Recovered archival record, name: archival, widget: boolean, default: false, required: false }
+      - { label: Contact approved for publication, name: contactPublished, widget: boolean, default: false, required: false, hint: "Do not add contact information unless the person explicitly approved publication." }
       - { label: Imported at, name: importedAt, widget: hidden, required: false }
 
   - name: places
@@ -147,10 +153,20 @@ collections:
     fields:
       - { label: Stable ID, name: id, widget: string }
       - { label: Name, name: name, widget: string }
-      - { label: Type, name: type, widget: select, options: [Production company, Festival, School, Cinema, Archive, Association, Collective, Distributor, Other] }
+      - { label: Type, name: type, widget: select, options: [Public institution, Production company, Festival, School, Cinema, Archive, Association, Collective, Distributor, Professional service, Other] }
       - { label: Description, name: description, widget: text }
+      - { label: Short name, name: shortName, widget: string, required: false }
+      - { label: Activities, name: activities, widget: list, required: false, field: { label: Activity, name: activity, widget: string } }
       - { label: Website, name: website, widget: string, required: false }
+      - label: Sources
+        name: sources
+        widget: list
+        required: false
+        fields:
+          - { label: Note, name: note, widget: string }
+          - { label: URL, name: url, widget: string, required: false }
       - { label: Status, name: status, widget: select, options: [draft, needs-review, verified, published], default: needs-review }
+      - { label: Recovered archival record, name: archival, widget: boolean, default: false, required: false }
 
   - name: opportunities
     label: Opportunities

@@ -1,0 +1,13 @@
+{
+  "id": "masibonia",
+  "name": "Masibonia",
+  "type": "Association",
+  "description": "An organisation listed in Filmada's earlier association directory. Its mission, current activity and public information still need to be documented and confirmed.",
+  "activities": [],
+  "archival": true,
+  "sources": [{
+    "note": "Listed on the institutions and associations page of the earlier Filmada directory.",
+    "url": "https://filmada.weebly.com/institutions.html"
+  }],
+  "status": "needs-review"
+}
