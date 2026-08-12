@@ -156,7 +156,15 @@ collections:
       - { label: Type, name: type, widget: string, default: Practical guide }
       - { label: Summary, name: summary, widget: text }
       - { label: Editorial note, name: editorialNote, widget: text, hint: "Explain what still needs checking before archival material can be presented as current." }
-      - { label: Examples in earlier guide, name: legacyExamples, widget: list, required: false, field: { label: Example, name: example, widget: string } }
+      - label: Guide entries
+        name: entries
+        widget: list
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: Region, name: region, widget: string }
+          - { label: Description, name: description, widget: text }
+          - { label: Who it may suit, name: eligibility, widget: text }
+          - { label: Official website, name: officialUrl, widget: string }
       - { label: Earlier Filmada page, name: sourceUrl, widget: string }
       - { label: Status, name: status, widget: select, options: [draft, needs-review, verified, published], default: needs-review }
 
