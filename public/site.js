@@ -6,6 +6,25 @@ if (menu && links) menu.addEventListener("click", () => {
   links.classList.toggle("open", !open);
 });
 
+const footerBrand = document.querySelector("footer .footer > div:first-child");
+if (footerBrand && !footerBrand.querySelector("[data-maker-credit]")) {
+  const language = document.documentElement.lang === "fr" ? "fr" : "en";
+  const credit = document.createElement("p");
+  const link = document.createElement("a");
+
+  credit.setAttribute("data-maker-credit", "");
+  credit.style.marginTop = "0.65rem";
+  credit.style.fontSize = "0.9em";
+  credit.style.opacity = "0.78";
+  credit.append(document.createTextNode(language === "fr" ? "Fait avec ❤️ par " : "Made with ❤️ by "));
+
+  link.href = "https://mosenjo.com";
+  link.rel = "author";
+  link.textContent = "Mose Njo";
+  credit.appendChild(link);
+  footerBrand.appendChild(credit);
+}
+
 const filterRoot = document.querySelector("[data-filter-root]");
 if (filterRoot) {
   const search = filterRoot.querySelector("[data-filter-search]");
